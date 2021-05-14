@@ -1,0 +1,67 @@
+---
+
+# project information
+project_name: pidgin
+project_url: "https://pidgin.im/"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pidgin-logo.png"
+project_blurb: "[Pidgin]({{ project_url }}) is a chat program which lets you log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends on XMPP and sitting in an IRC channel at the same time."
+project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_blurb_optional_extras_enabled: false
+
+# supported architectures
+available_architectures:
+  - { arch: "{{ arch_x86_64 }}", tag: "latest"}
+  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
+  - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
+
+# development version
+development_versions: false
+
+# container parameters
+common_param_env_vars_enabled: true
+param_container_name: "{{ project_name }}"
+param_usage_include_env: true
+param_env_vars:
+  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London." }
+param_usage_include_vols: true
+param_volumes:
+  - { vol_path: "/config", vol_host_path: "/path/to/config", desc: "Users home directory in the container, stores local files and settings" }
+param_usage_include_ports: true
+param_ports:
+  - { external_port: "3000", internal_port: "3000", port_desc: "Pidgin desktop gui." }
+
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  The application can be accessed at:
+  
+  * http://yourhost:3000/
+  
+  By default the user/pass is abc/abc, if you change your password or want to login manually to the GUI session for any reason use the following link:
+  
+  * http://yourhost:3000/?login=true
+
+  This Pidgin installation comes with default chat plugins plus a series of third party ones. **Please note that the third party plugins for the most part are not simply plug and play, you will need to reference their documentation and possibly generate oauth tokens along with other workarounds**. Third party plugins are always in a state of constant development do not expect every single native feature to work flawlessly. To ease integration with some third party plugins we include Firefox in this image to allow you to fill out captchas or pre-auth before loading your credentials into the program, simply right click the desktop to launch it. 
+
+  * Bonjour- Default XMPP style plugin
+  * Discord- Provided by [purple-discord](https://github.com/EionRobb/purple-discord)
+  * Facebook- Provided by [purple-facebook](https://github.com/dequis/purple-facebook)
+  * Gadu-Gadu- Default libgadu plugin
+  * Google Talk- Provided by [purple-hangouts](https://github.com/EionRobb/purple-hangouts)
+  * GroupWise- Default GroupWise plugin
+  * Hangouts- Provided by [purple-hangouts](https://github.com/EionRobb/purple-hangouts)
+  * ICQ (WIM)- Provided by [icyque](https://github.com/EionRobb/icyque)
+  * IRC- Default IRC plugin
+  * Instagram- Provided by [purple-instagram](https://github.com/EionRobb/purple-instagram)
+  * Office Comminicator (SIPE)- Provided by [SIPE Project](https://sipe.sourceforge.io/)
+  * Rocket.chat- Provided by [purple-rocketchat](https://github.com/EionRobb/purple-rocketchat)
+  * SIMPLE- Default plugin
+  * Skype (HTTP)- Provided by [skype4pidgin](https://github.com/EionRobb/skype4pidgin)
+  * Slack- Provided by [slack-libpurple](https://github.com/EionRobb/slack-libpurple)
+  * Telegram- Provided by [telegram-purple](https://github.com/majn/telegram-purple)
+  * XMPP- Default XMPP plugin
+  * Zephyr- Default project Athena plugin
+
+# changelog
+changelogs:
+  - { date: "14.05.21:", desc: "Initial release." }
