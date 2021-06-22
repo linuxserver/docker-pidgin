@@ -8,7 +8,7 @@ at-spi2-atk-2.38.0-r0
 at-spi2-core-2.38.0-r0
 atk-2.36.0-r0
 atkmm-2.28.0-r1
-avahi-glib-0.8-r2
+avahi-glib-0.8-r3
 avahi-libs-0.8-r2
 axc-0.3.3-r1
 bash-5.1.0-r0
@@ -184,7 +184,7 @@ nettle-3.7.2-r0
 nghttp2-libs-1.42.0-r1
 nodejs-14.16.1-r1
 npth-1.6-r0
-nspr-4.29-r0
+nspr-4.31-r0
 nss-3.66-r0
 nuspell-4.1.0-r0
 openbox-3.6.1-r2
