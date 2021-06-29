@@ -9,7 +9,7 @@ at-spi2-core-2.38.0-r0
 atk-2.36.0-r0
 atkmm-2.28.0-r1
 avahi-glib-0.8-r3
-avahi-libs-0.8-r2
+avahi-libs-0.8-r3
 axc-0.3.3-r1
 bash-5.1.0-r0
 boost-locale-1.72.0-r6
