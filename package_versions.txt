@@ -98,7 +98,7 @@ libevent-2.1.12-r1
 libffi-3.3-r2
 libfontenc-1.1.4-r0
 libgcc-10.2.1_pre1-r3
-libgcrypt-1.8.7-r0
+libgcrypt-1.8.8-r0
 libgomp-10.2.1_pre1-r3
 libgpg-error-1.41-r0
 libice-1.0.10-r0
