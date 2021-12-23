@@ -117,13 +117,12 @@ RUN \
   apk add --no-cache --virtual=build-dependencies \
     curl && \
   if [ -z ${PIDGIN_VERSION+x} ]; then \
-    PIDGIN_VERSION=$(curl -sL "http://dl-cdn.alpinelinux.org/alpine/v3.14/community/x86_64/APKINDEX.tar.gz" | tar -xz -C /tmp \
+    PIDGIN_VERSION=$(curl -sL "http://dl-cdn.alpinelinux.org/alpine/v3.15/community/x86_64/APKINDEX.tar.gz" | tar -xz -C /tmp \
     && awk '/^P:pidgin$/,/V:/' /tmp/APKINDEX | sed -n 2p | sed 's/^V://'); \
   fi && \
   apk add --no-cache \
     discount \
     firefox-esr \
-    leafpad \
     libpurple-bonjour \
     libpurple-xmpp \
     libwebp \
