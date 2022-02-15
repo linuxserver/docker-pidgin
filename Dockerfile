@@ -13,7 +13,9 @@ RUN \
     json-glib-dev \
     libgcrypt-dev \
     libpng-dev \
+    libqrencode-dev \
     libwebp-dev \
+    nss-dev \
     openssl-dev \
     pidgin-dev && \
   mkdir /buildout
@@ -109,6 +111,9 @@ ARG PIDGIN_VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 
+# title
+ENV TITLE=Pidgin
+
 # copy over all plugin libs
 COPY --from=plugins /buildout/ /
 
@@ -125,7 +130,9 @@ RUN \
     firefox-esr \
     libpurple-bonjour \
     libpurple-xmpp \
+    libqrencode \
     libwebp \
+    nss \
     pidgin==${PIDGIN_VERSION} \
     pidgin-lang \
     pidgin-otr \

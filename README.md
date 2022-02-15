@@ -248,6 +248,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **15.02.22:** - Add build deps for discord.
 * **23.12.21:** - Rebase to Alpine 3.15.
 * **26.09.21:** - Rebase to Alpine 3.14.
 * **14.05.21:** - Initial release.
