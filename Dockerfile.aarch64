@@ -39,7 +39,7 @@ RUN \
 
 RUN \
   echo "**** grab discord plugin source ****" && \
-  git clone git://github.com/EionRobb/purple-discord.git
+  git clone https://github.com/EionRobb/purple-discord.git
 
 RUN \
   echo "**** build discord plugin ****" && \
@@ -49,7 +49,7 @@ RUN \
 
 RUN \
   echo "**** grab slack plugin source ****" && \
-  git clone git://github.com/EionRobb/slack-libpurple.git
+  git clone https://github.com/EionRobb/slack-libpurple.git
 
 RUN \
   echo "**** build discord plugin ****" && \
@@ -61,7 +61,7 @@ RUN \
   echo "**** grab skype plugin source ****" && \
   SKYPE_RELEASE=$(curl -sX GET "https://api.github.com/repos/EionRobb/skype4pidgin/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]') && \
-  git clone git://github.com/EionRobb/skype4pidgin.git && \
+  git clone https://github.com/EionRobb/skype4pidgin.git && \
   cd skype4pidgin && \
   git checkout ${SKYPE_RELEASE}
 
@@ -73,7 +73,7 @@ RUN \
 
 RUN \
   echo "**** grab ICQ wim source ****" && \
-  git clone git://github.com/EionRobb/icyque.git
+  git clone https://github.com/EionRobb/icyque.git
 
 RUN \
   echo "**** build ICQ wim plugin ****" && \
@@ -83,7 +83,7 @@ RUN \
 
 RUN \
   echo "**** grab rocketchat source ****" && \
-  git clone git://github.com/EionRobb/purple-rocketchat.git
+  git clone https://github.com/EionRobb/purple-rocketchat.git
 
 RUN \
   echo "**** build rocketchat plugin ****" && \
@@ -93,7 +93,7 @@ RUN \
 
 RUN \
   echo "**** grab instagram source ****" && \
-  git clone git://github.com/EionRobb/purple-instagram.git
+  git clone https://github.com/EionRobb/purple-instagram.git
 
 RUN \
   echo "**** build instagram plugin ****" && \
