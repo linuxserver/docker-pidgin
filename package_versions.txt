@@ -12,7 +12,7 @@ avahi-libs-0.8-r5
 axc-0.3.6-r0
 bash-5.1.16-r0
 brotli-libs-1.0.9-r5
-busybox-1.34.1-r4
+busybox-1.34.1-r5
 c-ares-1.18.1-r0
 ca-certificates-20211220-r0
 ca-certificates-bundle-20211220-r0
@@ -38,7 +38,7 @@ encodings-1.0.5-r0
 eudev-libs-3.2.11_pre1-r0
 expat-2.4.7-r0
 fftw-single-libs-3.3.10-r0
-firefox-esr-91.7.1-r0
+firefox-esr-91.8.0-r0
 flac-1.3.4-r0
 font-alias-1.0.4-r0
 font-cursor-misc-1.0.3-r1
@@ -252,7 +252,7 @@ sound-theme-freedesktop-0.8-r0
 soxr-0.1.3-r2
 speexdsp-1.2.0-r0
 sqlite-libs-3.36.0-r0
-ssl_client-1.34.1-r4
+ssl_client-1.34.1-r5
 startup-notification-0.12-r4
 sudo-1.9.8_p2-r1
 tdb-libs-1.4.5-r0
