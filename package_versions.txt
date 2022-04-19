@@ -75,7 +75,7 @@ gtk-update-icon-cache-2.24.33-r0
 gtkmm3-3.24.5-r0
 gtkspell-2.0.16-r8
 harfbuzz-3.0.0-r2
-heimdal-libs-7.7.0-r6
+heimdal-libs-7.7.0-r7
 hicolor-icon-theme-0.17-r1
 icu-libs-69.1-r1
 imlib2-1.7.4-r0
@@ -282,7 +282,7 @@ xorgxrdp-0.2.17-r2
 xrdb-1.2.1-r0
 xrdp-0.9.18.1-r0
 xterm-371-r0
-xz-5.2.5-r0
-xz-libs-5.2.5-r0
+xz-5.2.5-r1
+xz-libs-5.2.5-r1
 zlib-1.2.12-r0
 zstd-libs-1.5.0-r0
