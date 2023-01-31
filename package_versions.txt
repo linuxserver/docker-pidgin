@@ -258,7 +258,7 @@ pidgin-sipe-1.24.0-r0
 pidgin-sipe-lang-1.24.0-r0
 pinentry-1.2.0-r0
 pixman-0.40.0-r4
-pkgconf-1.8.0-r1
+pkgconf-1.8.1-r0
 procps-3.3.17-r1
 protobuf-c-1.4.1-r0
 pulseaudio-15.0-r2
