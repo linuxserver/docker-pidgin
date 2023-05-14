@@ -1,5 +1,5 @@
 # build stage
-FROM ghcr.io/linuxserver/baseimage-alpine:3.17 as plugins
+FROM ghcr.io/linuxserver/baseimage-alpine:3.18 as plugins
 
 RUN \
   echo "**** install dev deps ****" && \
@@ -101,7 +101,7 @@ RUN \
   make DESTDIR="/buildout" install
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-kasmvnc:alpine317
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:alpine318
 
 # set version label
 ARG BUILD_DATE
@@ -119,14 +119,12 @@ COPY --from=plugins /buildout/ /
 RUN \
   echo "**** install packages ****" && \
   if [ -z ${PIDGIN_VERSION+x} ]; then \
-    PIDGIN_VERSION=$(curl -sL "http://dl-cdn.alpinelinux.org/alpine/v3.17/community/x86_64/APKINDEX.tar.gz" | tar -xz -C /tmp \
+    PIDGIN_VERSION=$(curl -sL "http://dl-cdn.alpinelinux.org/alpine/v3.18/community/x86_64/APKINDEX.tar.gz" | tar -xz -C /tmp \
     && awk '/^P:pidgin$/,/V:/' /tmp/APKINDEX | sed -n 2p | sed 's/^V://'); \
   fi && \
   apk add --no-cache \
     chromium \
     discount \
-    libpurple-bonjour \
-    libpurple-xmpp \
     libqrencode \
     libwebp \
     nss \
