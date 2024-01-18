@@ -124,8 +124,8 @@ RUN \
     && awk '/^P:pidgin$/,/V:/' /tmp/APKINDEX | sed -n 2p | sed 's/^V://'); \
   fi && \
   apk add --no-cache \
-    chromium \
     discount \
+    firefox \
     libqrencode \
     libwebp \
     nss \
