@@ -112,12 +112,17 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="thelamer"
 
 # title
-ENV TITLE=Pidgin
+ENV TITLE=Pidgin \
+    NO_FULL=true
 
 # copy over all plugin libs
 COPY --from=plugins /buildout/ /
 
 RUN \
+  echo "**** add icon ****" && \
+  curl -o \
+    /kclient/public/icon.png \
+    https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pidgin-logo.png && \
   echo "**** install packages ****" && \
   if [ -z ${PIDGIN_VERSION+x} ]; then \
     PIDGIN_VERSION=$(curl -sL "http://dl-cdn.alpinelinux.org/alpine/v3.19/community/x86_64/APKINDEX.tar.gz" | tar -xz -C /tmp \
