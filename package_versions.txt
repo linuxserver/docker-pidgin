@@ -1,7 +1,7 @@
 NAME                                                                          VERSION                                      TYPE                        
 1to2                                                                          1.0.0                                        npm                          
 @kasmtech/novnc                                                               1.3.0                                        npm                          
-@socket.io/component-emitter                                                  3.1.1                                        npm                          
+@socket.io/component-emitter                                                  3.1.2                                        npm                          
 @types/cookie                                                                 0.4.1                                        npm                          
 @types/cors                                                                   2.8.17                                       npm                          
 @types/node                                                                   20.12.7                                      npm                          
@@ -136,7 +136,7 @@ file-uri-to-path                                                              1.
 filelist                                                                      1.0.4                                        npm                          
 finalhandler                                                                  1.2.0                                        npm                          
 findutils                                                                     4.9.0-r5                                     apk                          
-firefox                                                                       125.0.2-r0                                   apk                          
+firefox                                                                       125.0.3-r0                                   apk                          
 font-noto                                                                     23.7.1-r0                                    apk                          
 font-noto-common                                                              23.7.1-r0                                    apk                          
 font-noto-emoji                                                               2.042-r0                                     apk                          
@@ -539,7 +539,6 @@ hasown                                                                        2.
 heck                                                                          0.4.1                                        rust-crate                   
 heimdal-libs                                                                  7.8.0-r3                                     apk                          
 hicolor-icon-theme                                                            0.17-r2                                      apk                          
-hiredis                                                                       1.2.0-r0                                     apk                          
 http-errors                                                                   2.0.0                                        npm                          
 hwdata-pci                                                                    0.377.2-r0                                   apk                          
 iconv-lite                                                                    0.4.24                                       npm                          
@@ -748,7 +747,7 @@ netcat-openbsd                                                                1.
 nettle                                                                        3.9.1-r0                                     apk                          
 new_debug_unreachable                                                         1.0.4                                        rust-crate                   
 nghttp2-libs                                                                  1.58.0-r0                                    apk                          
-nginx                                                                         1.24.0-r15                                   apk                          
+nginx                                                                         1.24.0-r16                                   apk                          
 nodejs                                                                        20.12.1-r0                                   apk                          
 nom                                                                           7.1.3                                        rust-crate                   
 noop_proc_macro                                                               0.3.0                                        rust-crate                   
