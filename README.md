@@ -64,7 +64,7 @@ The application can be accessed at:
 * http://yourhost:3000/
 * https://yourhost:3001/
 
-This Pidgin installation comes with default chat plugins plus a series of third party ones. **Please note that the third party plugins for the most part are not simply plug and play, you will need to reference their documentation and possibly generate oauth tokens along with other workarounds**. Third party plugins are always in a state of constant development do not expect every single native feature to work flawlessly. To ease integration with some third party plugins we include Firefox in this image to allow you to fill out captchas or pre-auth before loading your credentials into the program, simply right click the desktop to launch it. 
+This Pidgin installation comes with default chat plugins plus a series of third party ones. **Please note that the third party plugins for the most part are not simply plug and play, you will need to reference their documentation and possibly generate oauth tokens along with other workarounds**. Third party plugins are always in a state of constant development do not expect every single native feature to work flawlessly. To ease integration with some third party plugins we include Firefox in this image to allow you to fill out captchas or pre-auth before loading your credentials into the program, simply right click the desktop to launch it.
 
 * Bonjour- Default XMPP style plugin
 * Discord- Provided by [purple-discord](https://github.com/EionRobb/purple-discord)
