@@ -577,8 +577,8 @@ iproute2-minimal                                                              6.
 iptables                                                                      1.8.10-r5                               apk                         
 jake                                                                          10.9.2                                  npm                         
 jq                                                                            1.7.1-r0                                apk                         
-json-glib                                                                     1.10.0-r0                               apk                         
-json-glib-lang                                                                1.10.0-r0                               apk                         
+json-glib                                                                     1.10.6-r0                               apk                         
+json-glib-lang                                                                1.10.6-r0                               apk                         
 k8s.io/api                                                                    v0.29.2                                 go-module  (+1 duplicate)   
 k8s.io/api                                                                    v0.31.2                                 go-module                   
 k8s.io/apimachinery                                                           v0.29.2                                 go-module  (+1 duplicate)   
