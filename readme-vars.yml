@@ -25,22 +25,18 @@ param_volumes:
   - {vol_path: "/config", vol_host_path: "/path/to/config", desc: "Users home directory in the container, stores local files and settings"}
 param_usage_include_ports: true
 param_ports:
-  - {external_port: "3000", internal_port: "3000", port_desc: "Pidgin desktop gui."}
+  - {external_port: "3000", internal_port: "3000", port_desc: "Pidgin desktop gui HTTP, must be proxied."}
   - {external_port: "3001", internal_port: "3001", port_desc: "Pidgin desktop gui HTTPS."}
 opt_security_opt_param: true
 opt_security_opt_param_vars:
   - {run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function on older hosts as syscalls are unknown to Docker."}
-# Kasm blurb settings
-kasm_blurb: true
-external_http_port: "3000"
-external_https_port: "3001"
-noto_fonts: "font-noto-cjk"
+# Selkies blurb settings
+selkies_blurb: true
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
   The application can be accessed at:
 
-  * http://yourhost:3000/
   * https://yourhost:3001/
 
   This Pidgin installation comes with default chat plugins plus a series of third party ones. **Please note that the third party plugins for the most part are not simply plug and play, you will need to reference their documentation and possibly generate oauth tokens along with other workarounds**. Third party plugins are always in a state of constant development do not expect every single native feature to work flawlessly. To ease integration with some third party plugins we include Firefox in this image to allow you to fill out captchas or pre-auth before loading your credentials into the program, simply right click the desktop to launch it.
@@ -125,6 +121,7 @@ init_diagram: |
   "pidgin:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "12.07.25:", desc: "Rebase to Selkies and Alpine 3.22, HTTPS IS NOW REQUIRED."}
   - {date: "06.12.24:", desc: "Rebase to Alpine 3.21."}
   - {date: "23.05.24:", desc: "Rebase to Alpine 3.20."}
   - {date: "10.02.24:", desc: "Update Readme with new env vars and ingest proper PWA icon."}
