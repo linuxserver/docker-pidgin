@@ -1,3 +1,5 @@
+# syntax=docker/dockerfile:1
+
 # build stage
 FROM ghcr.io/linuxserver/baseimage-alpine:3.22 AS plugins
 
@@ -154,6 +156,6 @@ RUN \
 COPY /root /
 
 # ports and volumes
-EXPOSE 3000
+EXPOSE 3001
 
 VOLUME /config
