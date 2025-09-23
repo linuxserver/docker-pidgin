@@ -11,7 +11,7 @@ alpine-baselayout-data                                                        3.
 alpine-keys                                                                   2.5-r0                                  apk                          
 alpine-release                                                                3.22.1-r0                               apk                          
 alsa-lib                                                                      1.2.14-r0                               apk                          
-anstream                                                                      0.6.5                                   rust-crate                   
+anstream                                                                      0.6.8                                   rust-crate                   
 anstyle                                                                       1.0.4                                   rust-crate                   
 anstyle-parse                                                                 0.2.3                                   rust-crate                   
 anstyle-query                                                                 1.0.2                                   rust-crate                   
@@ -20,9 +20,9 @@ aom-libs                                                                      3.
 apk-tools                                                                     2.14.9-r3                               apk                          
 arg_enum_proc_macro                                                           0.3.4                                   rust-crate                   
 arrayvec                                                                      0.7.4                                   rust-crate                   
-at-spi2-core                                                                  2.56.4-r0                               apk                          
-at-spi2-core-lang                                                             2.56.4-r0                               apk                          
-at-spi2-core-libs                                                             2.56.4-r0                               apk                          
+at-spi2-core                                                                  2.56.5-r0                               apk                          
+at-spi2-core-lang                                                             2.56.5-r0                               apk                          
+at-spi2-core-libs                                                             2.56.5-r0                               apk                          
 attrs                                                                         25.3.0                                  python                       
 autocommand                                                                   2.2.2                                   python                       
 av                                                                            14.4.0                                  python                       
@@ -76,7 +76,7 @@ crossbeam-deque                                                               0.
 crossbeam-epoch                                                               0.9.18                                  rust-crate                   
 crossbeam-queue                                                               0.3.11                                  rust-crate                   
 crossbeam-utils                                                               0.8.19                                  rust-crate                   
-cryptography                                                                  45.0.7                                  python                       
+cryptography                                                                  46.0.1                                  python                       
 cups-libs                                                                     2.4.11-r0                               apk                          
 curl                                                                          8.14.1-r1                               apk                          
 dario.cat/mergo                                                               v1.0.1                                  go-module   (+2 duplicates)  
@@ -558,8 +558,8 @@ jaraco-functools                                                              4.
 jaraco-text                                                                   3.12.1                                  python                       
 jq                                                                            1.7.1                                   binary                       
 jq                                                                            1.8.0-r0                                apk                          
-json-glib                                                                     1.10.6-r1                               apk                          
-json-glib-lang                                                                1.10.6-r1                               apk                          
+json-glib                                                                     1.10.8-r0                               apk                          
+json-glib-lang                                                                1.10.8-r0                               apk                          
 k8s.io/api                                                                    v0.31.2                                 go-module                    
 k8s.io/api                                                                    v0.32.3                                 go-module   (+1 duplicate)   
 k8s.io/apimachinery                                                           v0.31.2                                 go-module                    
@@ -587,8 +587,8 @@ libapk2                                                                       2.
 libarchive                                                                    3.8.1-r0                                apk                          
 libassuan                                                                     2.5.7-r0                                apk                          
 libasyncns                                                                    0.8-r4                                  apk                          
-libatk-1.0                                                                    2.56.4-r0                               apk                          
-libatk-bridge-2.0                                                             2.56.4-r0                               apk                          
+libatk-1.0                                                                    2.56.5-r0                               apk                          
+libatk-bridge-2.0                                                             2.56.5-r0                               apk                          
 libattr                                                                       2.5.2-r2                                apk                          
 libblkid                                                                      2.41-r9                                 apk                          
 libbsd                                                                        0.12.2-r0                               apk                          
@@ -800,10 +800,10 @@ procps-ng                                                                     4.
 procps-ng-lang                                                                4.0.4-r3                                apk                          
 profiling                                                                     1.0.13                                  rust-crate                   
 profiling-procmacros                                                          1.0.13                                  rust-crate                   
-prometheus-client                                                             0.22.1                                  python                       
+prometheus-client                                                             0.23.1                                  python                       
 propcache                                                                     0.3.2                                   python                       
 protobuf-c                                                                    1.5.2-r0                                apk                          
-psutil                                                                        7.0.0                                   python                       
+psutil                                                                        7.1.0                                   python                       
 pulseaudio                                                                    17.0-r5                                 apk                          
 pulseaudio-alsa                                                               17.0-r5                                 apk                          
 pulseaudio-lang                                                               17.0-r5                                 apk                          
@@ -820,7 +820,7 @@ pycparser                                                                     2.
 pyee                                                                          13.0.0                                  python                       
 pylibsrtp                                                                     0.12.0                                  python                       
 pynput                                                                        1.8.1                                   python                       
-pyopenssl                                                                     25.2.0                                  python                       
+pyopenssl                                                                     25.3.0                                  python                       
 python-xlib                                                                   0.33                                    python                       
 python3                                                                       3.12.11-r0                              apk                          
 python3-pyc                                                                   3.12.11-r0                              apk                          
@@ -830,7 +830,7 @@ rand                                                                          0.
 rand_chacha                                                                   0.3.1                                   rust-crate                   
 rand_core                                                                     0.6.4                                   rust-crate                   
 rav1e                                                                         0.7.1                                   rust-crate                   
-rav1e-libs                                                                    0.7.1-r0                                apk                          
+rav1e-libs                                                                    0.7.1-r1                                apk                          
 rayon                                                                         1.8.0                                   rust-crate                   
 rayon-core                                                                    1.12.0                                  rust-crate                   
 readline                                                                      8.2.13-r1                               apk                          
