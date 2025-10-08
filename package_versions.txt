@@ -40,8 +40,8 @@ brotli-libs                                                                   1.
 busybox                                                                       1.37.0-r19                              apk                          
 busybox-binsh                                                                 1.37.0-r19                              apk                          
 c-ares                                                                        1.34.5-r0                               apk                          
-ca-certificates                                                               20250619-r0                             apk                          
-ca-certificates-bundle                                                        20250619-r0                             apk                          
+ca-certificates                                                               20250911-r0                             apk                          
+ca-certificates-bundle                                                        20250911-r0                             apk                          
 cairo                                                                         1.18.4-r0                               apk                          
 cairo-gobject                                                                 1.18.4-r0                               apk                          
 catatonit                                                                     0.2.1-r0                                apk                          
@@ -76,9 +76,9 @@ crossbeam-deque                                                               0.
 crossbeam-epoch                                                               0.9.18                                  rust-crate                   
 crossbeam-queue                                                               0.3.11                                  rust-crate                   
 crossbeam-utils                                                               0.8.19                                  rust-crate                   
-cryptography                                                                  46.0.1                                  python                       
+cryptography                                                                  46.0.2                                  python                       
 cups-libs                                                                     2.4.11-r0                               apk                          
-curl                                                                          8.14.1-r1                               apk                          
+curl                                                                          8.14.1-r2                               apk                          
 dario.cat/mergo                                                               v1.0.1                                  go-module   (+2 duplicates)  
 dbus                                                                          1.16.2-r1                               apk                          
 dbus-daemon-launch-helper                                                     1.16.2-r1                               apk                          
@@ -597,8 +597,8 @@ libc                                                                          0.
 libcap-ng                                                                     0.8.5-r0                                apk                          
 libcap2                                                                       2.76-r0                                 apk                          
 libcom_err                                                                    1.47.2-r2                               apk                          
-libcrypto3                                                                    3.5.3-r1                                apk                          
-libcurl                                                                       8.14.1-r1                               apk                          
+libcrypto3                                                                    3.5.4-r0                                apk                          
+libcurl                                                                       8.14.1-r2                               apk                          
 libdav1d                                                                      1.5.1-r0                                apk                          
 libdeflate                                                                    1.23-r0                                 apk                          
 libdrm                                                                        2.4.124-r0                              apk                          
@@ -608,7 +608,7 @@ libelf                                                                        0.
 libepoxy                                                                      1.5.10-r1                               apk                          
 libev                                                                         4.33-r1                                 apk                          
 libevent                                                                      2.1.12-r8                               apk                          
-libexpat                                                                      2.7.2-r0                                apk                          
+libexpat                                                                      2.7.3-r0                                apk                          
 libfdisk                                                                      2.41-r9                                 apk                          
 libffi                                                                        3.4.8-r0                                apk                          
 libflac                                                                       1.4.3-r1                                apk                          
@@ -654,7 +654,7 @@ libsignal-protocol-c                                                          2.
 libsm                                                                         1.2.5-r0                                apk                          
 libsmartcols                                                                  2.41-r9                                 apk                          
 libsndfile                                                                    1.2.2-r2                                apk                          
-libssl3                                                                       3.5.3-r1                                apk                          
+libssl3                                                                       3.5.4-r0                                apk                          
 libstdc++                                                                     14.2.0-r6                               apk                          
 libtasn1                                                                      4.20.0-r0                               apk                          
 libtheora                                                                     1.1.1-r18                               apk                          
@@ -768,7 +768,7 @@ openexr-libopenexrcore                                                        3.
 openssh-client-common                                                         10.0_p1-r9                              apk                          
 openssh-client-default                                                        10.0_p1-r9                              apk                          
 openssh-keygen                                                                10.0_p1-r9                              apk                          
-openssl                                                                       3.5.3-r1                                apk                          
+openssl                                                                       3.5.4-r0                                apk                          
 opus                                                                          1.5.2-r1                                apk                          
 orc                                                                           0.4.40-r1                               apk                          
 p11-kit                                                                       0.25.5-r2                               apk                          
@@ -790,7 +790,7 @@ pidgin-sipe-lang                                                              1.
 pillow                                                                        11.3.0                                  python                       
 pinentry                                                                      1.3.1-r0                                apk                          
 pip                                                                           25.0.1                                  python                       
-pixelflux                                                                     1.4.0                                   python                       
+pixelflux                                                                     1.4.2                                   python                       
 pixman                                                                        0.46.4-r0                               apk                          
 pkgconf                                                                       2.4.3-r0                                apk                          
 platformdirs                                                                  4.2.2                                   python                       
