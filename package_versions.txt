@@ -26,7 +26,7 @@ anstyle-query                                                                 1.
 anyhow                                                                        1.0.79                                  rust-crate                   
 anyhow                                                                        1.0.98                                  rust-crate  (+1 duplicate)   
 aom-libs                                                                      3.13.1-r1                               apk                          
-apk-tools                                                                     3.0.3-r1                                apk                          
+apk-tools                                                                     3.0.4-r0                                apk                          
 arg_enum_proc_macro                                                           0.3.4                                   rust-crate  (+1 duplicate)   
 arrayvec                                                                      0.7.4                                   rust-crate                   
 arrayvec                                                                      0.7.6                                   rust-crate                   
@@ -109,7 +109,7 @@ crossbeam-queue                                                               0.
 crossbeam-queue                                                               0.3.12                                  rust-crate                   
 crossbeam-utils                                                               0.8.19                                  rust-crate                   
 crossbeam-utils                                                               0.8.21                                  rust-crate                   
-cryptography                                                                  46.0.4                                  python                       
+cryptography                                                                  46.0.5                                  python                       
 cups-libs                                                                     2.4.16-r0                               apk                          
 curl                                                                          8.17.0-r1                               apk                          
 dario.cat/mergo                                                               v1.0.2                                  go-module   (+1 duplicate)   
@@ -513,7 +513,7 @@ gmp                                                                           6.
 gnupg-dirmngr                                                                 2.4.9-r0                                apk                          
 gnupg-gpgconf                                                                 2.4.9-r0                                apk                          
 gnupg-keyboxd                                                                 2.4.9-r0                                apk                          
-gnutls                                                                        3.8.11-r0                               apk                          
+gnutls                                                                        3.8.12-r0                               apk                          
 go.etcd.io/bbolt                                                              v1.4.3                                  go-module   (+1 duplicate)   
 go.etcd.io/etcd/api/v3                                                        v3.6.5                                  go-module                    
 go.etcd.io/etcd/client/pkg/v3                                                 v3.6.5                                  go-module                    
@@ -683,7 +683,7 @@ lang                                                                          0.
 lazy_static                                                                   1.4.0                                   rust-crate                   
 lcms2                                                                         2.17-r0                                 apk                          
 libSvtAv1Enc                                                                  3.1.2-r0                                apk                          
-libapk                                                                        3.0.3-r1                                apk                          
+libapk                                                                        3.0.4-r0                                apk                          
 libarchive                                                                    3.8.5-r0                                apk                          
 libassuan                                                                     3.0.2-r0                                apk                          
 libasyncns                                                                    0.8-r4                                  apk                          
@@ -741,13 +741,13 @@ libmnl                                                                        1.
 libmount                                                                      2.41.2-r0                               apk                          
 libncursesw                                                                   6.5_p20251123-r0                        apk                          
 libnftnl                                                                      1.3.0-r0                                apk                          
-libnotify                                                                     0.8.7-r0                                apk                          
+libnotify                                                                     0.8.8-r0                                apk                          
 libogg                                                                        1.3.6-r0                                apk                          
 libomemo                                                                      0.8.1-r0                                apk                          
 libotr                                                                        4.1.1-r5                                apk                          
 libpanelw                                                                     6.5_p20251123-r0                        apk                          
 libpciaccess                                                                  0.18.1-r1                               apk                          
-libpng                                                                        1.6.54-r0                               apk                          
+libpng                                                                        1.6.55-r0                               apk                          
 libproc2                                                                      4.0.5-r0                                apk                          
 libpsl                                                                        0.21.5-r3                               apk                          
 libpulse                                                                      17.0-r5                                 apk                          
@@ -853,7 +853,6 @@ musl-locales                                                                  0.
 musl-locales-lang                                                             0.1.0-r1                                apk                          
 musl-utils                                                                    1.2.5-r21                               apk                          
 mxml                                                                          3.3.1-r0                                apk                          
-my-test-package                                                               1.0                                     python                       
 ncurses-terminfo                                                              6.5_p20251123-r0                        apk                          
 ncurses-terminfo-base                                                         6.5_p20251123-r0                        apk                          
 netcat-openbsd                                                                1.234.1-r0                              apk                          
@@ -863,8 +862,8 @@ new_debug_unreachable                                                         1.
 nftables                                                                      1.1.5-r2                                apk                          
 nghttp2-libs                                                                  1.68.0-r0                               apk                          
 nghttp3                                                                       1.13.1-r0                               apk                          
-nginx                                                                         1.28.2-r0                               apk                          
-nginx-mod-http-fancyindex                                                     1.28.2-r0                               apk                          
+nginx                                                                         1.28.2-r1                               apk                          
+nginx-mod-http-fancyindex                                                     1.28.2-r1                               apk                          
 nom                                                                           7.1.3                                   rust-crate  (+1 duplicate)   
 nom                                                                           8.0.0                                   rust-crate                   
 noop_proc_macro                                                               0.3.0                                   rust-crate  (+1 duplicate)   
@@ -912,7 +911,7 @@ pidgin-otr                                                                    4.
 pidgin-otr-lang                                                               4.0.2-r1                                apk                          
 pidgin-sipe                                                                   1.25.0-r2                               apk                          
 pidgin-sipe-lang                                                              1.25.0-r2                               apk                          
-pillow                                                                        12.1.0                                  python                       
+pillow                                                                        12.1.1                                  python                       
 pinentry                                                                      1.3.2-r0                                apk                          
 pip                                                                           25.0.1                                  python                       
 pixelflux                                                                     1.5.9                                   python                       
@@ -945,7 +944,7 @@ purple-xmpp                                                                   2.
 purple-xmpp-http-upload                                                       0.2.4-r1                                apk                          
 pyc                                                                           3.12.12-r0                              apk                          
 pycparser                                                                     3.0                                     python                       
-pyee                                                                          13.0.0                                  python                       
+pyee                                                                          13.0.1                                  python                       
 pylibsrtp                                                                     1.0.0                                   python                       
 pynput                                                                        1.8.1                                   python                       
 pyopenssl                                                                     25.3.0                                  python                       
@@ -982,7 +981,7 @@ scudo-malloc                                                                  21
 selkies                                                                       0.0.0                                   python                       
 setarch                                                                       2.41.2-r0                               apk                          
 setpriv                                                                       2.41.2-r0                               apk                          
-setuptools                                                                    81.0.0                                  python                       
+setuptools                                                                    82.0.0                                  python                       
 setxkbmap                                                                     1.3.4-r0                                apk                          
 sfdisk                                                                        2.41.2-r0                               apk                          
 shadow                                                                        4.18.0-r0                               apk                          
