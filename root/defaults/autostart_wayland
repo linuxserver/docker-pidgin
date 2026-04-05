@@ -1,1 +1,10 @@
+if [ ! -f "${HOME}/Desktop/pidgin.desktop" ]; then
+  cp /usr/share/applications/pidgin.desktop "${HOME}/Desktop/"
+  cp /usr/share/applications/firefox.desktop "${HOME}/Desktop/"
+fi
+
+touch "${HOME}/.config/panel-reload"
+gio mime x-scheme-handler/http firefox.desktop
+gio mime x-scheme-handler/https firefox.desktop
+
 pidgin

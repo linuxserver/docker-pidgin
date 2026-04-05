@@ -115,7 +115,10 @@ LABEL maintainer="thelamer"
 
 # title
 ENV TITLE=Pidgin \
-    NO_FULL=true
+    NO_FULL=true \
+    NO_GAMEPAD=true \
+    SELKIES_DESKTOP=true \
+    PIXELFLUX_WAYLAND=true
 
 # copy over all plugin libs
 COPY --from=plugins /buildout/ /
@@ -150,7 +153,13 @@ RUN \
     purple-hangouts && \
   echo "**** cleanup ****" && \
   rm -rf \
-    /tmp/*
+    /config/.cache \
+    /tmp/* \
+    /usr/share/applications/footclient.desktop \
+    /usr/share/applications/foot-server.desktop \
+    /usr/share/applications/st.desktop \
+    /usr/share/applications/uxterm.desktop \
+    /usr/share/applications/xterm.desktop
 
 # add local files
 COPY /root /
