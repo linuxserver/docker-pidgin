@@ -514,7 +514,7 @@ gmp                                                                           6.
 gnupg-dirmngr                                                                 2.4.9-r0                                apk                          
 gnupg-gpgconf                                                                 2.4.9-r0                                apk                          
 gnupg-keyboxd                                                                 2.4.9-r0                                apk                          
-gnutls                                                                        3.8.12-r0                               apk                          
+gnutls                                                                        3.8.13-r0                               apk                          
 go.etcd.io/bbolt                                                              v1.4.3                                  go-module   (+1 duplicate)   
 go.etcd.io/etcd/api/v3                                                        v3.6.5                                  go-module                    
 go.etcd.io/etcd/client/pkg/v3                                                 v3.6.5                                  go-module                    
@@ -681,7 +681,7 @@ labwc-lang                                                                    0.
 lame-libs                                                                     3.100-r5                                apk                          
 lang                                                                          0.1-r2                                  apk                          
 lazy_static                                                                   1.4.0                                   rust-crate                   
-lcms2                                                                         2.17-r0                                 apk                          
+lcms2                                                                         2.19-r0                                 apk                          
 libSvtAv1Enc                                                                  3.1.2-r0                                apk                          
 libapk                                                                        3.0.6-r0                                apk                          
 libarchive                                                                    3.8.5-r0                                apk                          
@@ -860,7 +860,7 @@ nettle                                                                        3.
 new_debug_unreachable                                                         1.0.4                                   rust-crate                   
 new_debug_unreachable                                                         1.0.6                                   rust-crate                   
 nftables                                                                      1.1.5-r2                                apk                          
-nghttp2-libs                                                                  1.68.0-r0                               apk                          
+nghttp2-libs                                                                  1.69.0-r0                               apk                          
 nghttp3                                                                       1.13.1-r0                               apk                          
 nginx                                                                         1.28.3-r0                               apk                          
 nginx-mod-http-fancyindex                                                     1.28.3-r0                               apk                          
@@ -1029,7 +1029,7 @@ tini-static                                                                   0.
 tinyvec                                                                       1.9.0                                   rust-crate                   
 tomli                                                                         2.4.0                                   python                       
 typing-extensions                                                             4.15.0                                  python                       
-tzdata                                                                        2026a-r0                                apk                          
+tzdata                                                                        2026b-r0                                apk                          
 umount                                                                        2.41.4-r0                               apk                          
 unicode-ident                                                                 1.0.12                                  rust-crate                   
 unicode-ident                                                                 1.0.18                                  rust-crate                   
@@ -1093,7 +1093,7 @@ xterm                                                                         40
 xvfb                                                                          21.1.22-r0                              apk                          
 xvidcore                                                                      1.3.7-r2                                apk                          
 xwayland                                                                      24.1.10-r0                              apk                          
-xz-libs                                                                       5.8.2-r0                                apk                          
+xz-libs                                                                       5.8.3-r0                                apk                          
 y4m                                                                           0.8.0                                   rust-crate  (+1 duplicate)   
 yarl                                                                          1.23.0                                  python                       
 zerocopy                                                                      0.8.25                                  rust-crate                   
