@@ -60,20 +60,6 @@ RUN \
   make DESTDIR="/buildout" install
 
 RUN \
-  echo "**** grab skype plugin source ****" && \
-  SKYPE_RELEASE=$(curl -sX GET "https://api.github.com/repos/EionRobb/skype4pidgin/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
-  git clone https://github.com/EionRobb/skype4pidgin.git && \
-  cd skype4pidgin && \
-  git checkout ${SKYPE_RELEASE}
-
-RUN \
-  echo "**** build skype plugin ****" && \
-  cd /skype4pidgin/skypeweb && \
-  make && \
-  make DESTDIR="/buildout" install
-
-RUN \
   echo "**** grab ICQ wim source ****" && \
   git clone https://github.com/EionRobb/icyque.git
 
