@@ -639,7 +639,7 @@ hicolor-icon-theme                                                            0.
 hwdata-pci                                                                    0.401-r0                                apk                          
 icu-data-en                                                                   76.1-r1                                 apk                          
 icu-libs                                                                      76.1-r1                                 apk                          
-idna                                                                          3.13                                    python                       
+idna                                                                          3.14                                    python                       
 ifaddr                                                                        0.2.0                                   python                       
 imlib2                                                                        1.12.4-r1                               apk                          
 importlib-metadata                                                            8.7.1                                   python                       
@@ -914,7 +914,7 @@ pidgin-sipe-lang                                                              1.
 pillow                                                                        12.2.0                                  python                       
 pinentry                                                                      1.3.2-r0                                apk                          
 pip                                                                           25.0.1                                  python                       
-pixelflux                                                                     1.6.2                                   python                       
+pixelflux                                                                     1.6.3                                   python                       
 pixman                                                                        0.46.4-r0                               apk                          
 pkgconf                                                                       2.5.1-r0                                apk                          
 platformdirs                                                                  4.4.0                                   python                       
@@ -928,7 +928,7 @@ profiling                                                                     1.
 profiling                                                                     1.0.16                                  rust-crate                   
 profiling-procmacros                                                          1.0.13                                  rust-crate                   
 prometheus-client                                                             0.25.0                                  python                       
-propcache                                                                     0.4.1                                   python                       
+propcache                                                                     0.5.2                                   python                       
 protobuf-c                                                                    1.5.2-r2                                apk                          
 psutil                                                                        7.2.2                                   python                       
 pulseaudio                                                                    17.0-r5                                 apk                          
