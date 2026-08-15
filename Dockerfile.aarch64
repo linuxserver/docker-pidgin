@@ -25,7 +25,7 @@ RUN \
 RUN \
   echo "**** grab telegram plugin source ****" && \
   TELEGRAM_RELEASE=$(curl -sX GET "https://api.github.com/repos/majn/telegram-purple/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+    | jq -r '.tag_name') && \
   git clone https://github.com/majn/telegram-purple.git && \
   cd telegram-purple && \
   git checkout ${TELEGRAM_RELEASE} && \
